@@ -428,17 +428,6 @@ video {
   }
 }
 @media (min-width: 768px) {
-  .features-grid {
-    display: flex;
-    max-width: var(--width-1200, 1200px);
-    padding: 0 20px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--item-spacing-l, 48px);
-    align-self: stretch;
-  }
-}
-@media (min-width: 768px) {
   .services-layout {
     display: flex;
     min-height: 507.88px;
@@ -449,6 +438,7 @@ video {
   }
 }
 @media (min-width: 768px) {
+  .features-grid,
   .gallery-grid {
     display: flex;
     max-width: var(--width-1200, 1200px);
@@ -457,8 +447,9 @@ video {
     align-items: flex-start;
     gap: var(--item-spacing-l, 48px);
     align-self: stretch;
+  }
+  .gallery-grid {
     height: 1124.88px;
-    align-self: stretch;
   }
 }
 /* DESKTOP - Large screens (1024px and up) */
