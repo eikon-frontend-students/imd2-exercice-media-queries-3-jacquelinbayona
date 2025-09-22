@@ -407,9 +407,37 @@ video {
     display: none;
   }
 }
+@media (min-width: 768px) {
+  .cta-button {
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 50px;
+  }
+}
+@media (min-width: 768px) {
+  .feature-card {
+    display: flex;
+    width: 479.5px;
+    padding: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--item-spacing-s, 16px);
+  }
+}
+@media (min-width: 768px) {
+  .features-grid {
+    display: flex;
+    max-width: var(--width-1200, 1200px);
+    padding: 0 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--item-spacing-l, 48px);
+    align-self: stretch;
+}
 
 /* DESKTOP - Large screens (1024px and up) */
 @media screen and (min-width: 1024px) {
-
 }
-
